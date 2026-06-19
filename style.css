@@ -115,3 +115,54 @@ body{
 .list-box li{
     margin-bottom: 10px;
 }
+
+@media (max-width: 768px) {
+    
+    .hero {
+        flex-direction: column; 
+        text-align: center;      
+        margin-top: 20px;
+    }
+    .hero-left, .hero-right {
+        width: 100%;
+    }
+    .hero-left h1 {
+        font-size: 28px; 
+        margin-bottom: 20px;
+    }
+    .hero-right {
+        margin-top: 30px;
+        order: 2; 
+    }
+    .header {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .menu {
+        display: flex;
+        flex-wrap: wrap;   
+        justify-content: center;
+        gap: 10px;  
+    }
+    .menu button {
+        margin-left: 0;     
+        width: 140px;   
+    }
+    .actions {
+        justify-content: center;
+    }
+    .gallery {
+        margin: 20px auto;
+    }
+    .gallery img {
+        width: 22vw;
+        height: 22vw;
+        max-width: 170px;
+        max-height: 170px;
+    }
+    .lists {
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 30px;
+    }
+}
